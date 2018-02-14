@@ -31,6 +31,11 @@
   when: February 7, 2018
   done: true
   
+- name: PHPUnit 7.0
+  url: https://phpunit.de/announcements/phpunit-7.html
+  when: February 2, 2018
+  done: true
+  
 # working on it - in master branch or in announcement
 
 - name: Nette 3.0
@@ -57,11 +62,6 @@
 - name: Spryker
   url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
   when: ~ 2018
-  done: false
-  
-- name: PHPUnit 7.0
-  url: https://github.com/sebastianbergmann/phpunit/milestone/22
-  when: February 2, 2018
   done: false
   
 - name: CodeIgniter 4.0
